@@ -106,7 +106,6 @@ transformer-decoder/
 ├── requirements.txt   # List of dependencies
 ├── setup.py           # Package metadata for installation
 ├── LICENSE            # MIT License
-└── CONTRIBUTING.md    # Guidelines for contributors
 ```
 
 ## 📖 References
