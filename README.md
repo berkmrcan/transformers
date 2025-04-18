@@ -2,10 +2,10 @@
 
 A lightweight, character-level Transformer decoder implementation designed for next-token prediction tasks. This package provides a complete, structured, and modular approach to using transformer decoders, inspired by the seminal work by Vaswani et al., "Attention is All You Need" (2017).
 
-## 🎯 What Is This?
+## What Is This?
 This project implements a Transformer decoder architecture tailored specifically for character-level language modeling. The Transformer decoder leverages multi-head self-attention, feed-forward neural networks, and positional encoding to effectively model sequential data. This implementation is designed to be easy-to-understand, extendable, and production-ready.
 
-## 🚀 Key Features
+## Key Features
 - **Multi-head self-attention:** Captures dependencies regardless of their distance in the input sequence.
 - **Layer normalization:** Stabilizes training by normalizing activations.
 - **Sinusoidal positional encoding:** Injects information about token positions.
@@ -13,7 +13,7 @@ This project implements a Transformer decoder architecture tailored specifically
 - **Configurable parameters:** Easily adjust depth, width, context size, and dropout rates.
 - **Testing suite:** Robust unit tests provided for reliability.
 
-## 🛠 Installation
+## Installation
 
 Clone this repository and install the required dependencies:
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## 📚 Usage
+## Usage
 
 Here's how you can quickly get started with training and generating text:
 
@@ -93,7 +93,7 @@ output = decode_indices(generated[0].tolist(), itos)
 print(output)
 ```
 
-## 🧬 Project Structure
+## Project Structure
 
 Here's a quick overview of the project structure:
 
@@ -109,25 +109,7 @@ transformer-decoder/
 └── CONTRIBUTING.md    # Guidelines for contributors
 ```
 
-## 📝 Tests
-
-To ensure correctness and reliability, unit tests are provided. Run tests with:
-
-```bash
-pytest
-```
-
 ## 📖 References
 - Vaswani, Ashish, et al. "Attention is All You Need." *Advances in Neural Information Processing Systems (NeurIPS)*, 2017.
 
-## 🤝 Contributing
-
-We welcome contributions! Check out the [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
-
-## 📜 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
----
-
-© 2025 Your Name
+© 2025 Berk Emre Can
